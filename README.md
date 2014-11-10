@@ -3,7 +3,7 @@
 ## Installation
 
 ``` sh
-sudo cp user-startup-scripts /etc/init.d/user-startup-scripts
+sudo cp user-startup-scripts.sh /etc/init.d/user-startup-scripts
 sudo chmod +x /etc/init.d/user-startup-scripts
 # runlevel 2 for Ubuntu, execute "runlevel" to see what runlevel is
 sudo ln -s /etc/init.d/user-startup-scripts /etc/rc2.d/S99user-startup-scripts
