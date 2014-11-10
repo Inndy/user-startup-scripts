@@ -12,3 +12,7 @@ sudo ln -s /etc/init.d/user-startup-scripts /etc/rc2.d/S99user-startup-scripts
 ## Notice
 
 This script will run `{/home/{username}/.startup.sh}` as user `{username}`, ***beware of*** `/home/root`
+
+## About runlevel
+
+see [Wikipedia](http://en.wikipedia.org/wiki/Runlevel) for futher information.
